@@ -24,9 +24,10 @@ public class SqureDemo {
 		 */
 		
 		//after square filter to get number greater than 50 and generate vagerage for that
-		OptionalDouble op =  l.stream().mapToInt(n -> n*n).filter(num -> num >= 50).average();
-		System.out.println(op.getAsDouble());
-		
+		/*
+		 * OptionalDouble op = l.stream().mapToInt(n -> n*n).filter(n -> n > 25);
+		 * System.out.println(op.getAsDouble());
+		 */
 		
 
 	}

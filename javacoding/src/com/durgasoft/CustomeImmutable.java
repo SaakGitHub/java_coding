@@ -15,6 +15,7 @@ public final class CustomeImmutable {
 			return new CustomeImmutable(i);
 	}
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		CustomeImmutable t1 = new CustomeImmutable(10);
 		CustomeImmutable t2 = new CustomeImmutable(101);
@@ -22,6 +23,7 @@ public final class CustomeImmutable {
 		
 		System.out.println(t1==t2);
 		System.out.println(t1==t3);
+		
 	}
 
 }
