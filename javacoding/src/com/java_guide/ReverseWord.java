@@ -12,6 +12,8 @@ public class ReverseWord {
 
 		String result = stream.map(word -> new StringBuilder(word).reverse().toString()).collect(Collectors.joining(" "));
 		System.out.println(result);
+		
+		
 	}
 
 }
